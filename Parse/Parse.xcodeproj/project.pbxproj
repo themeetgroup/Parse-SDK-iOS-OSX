@@ -2639,8 +2639,8 @@
 		B14117111E5D081500F70D7A /* PFFileUploadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B141170A1E5D081500F70D7A /* PFFileUploadResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC150D7325A89F9C0092B00E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A13518820281768000F5FD5 /* Bolts.framework */; };
 		BCAFF87325A88B7800B95DFC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFF87225A88B7800B95DFC /* WebKit.framework */; platformFilter = ios; };
-		F14E6EB82BD0565C00E7E230 /* ParseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E6EB72BD0565B00E7E230 /* ParseCore.h */; };
-		F14E6EB92BD0565C00E7E230 /* ParseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E6EB72BD0565B00E7E230 /* ParseCore.h */; };
+		F14E6EB82BD0565C00E7E230 /* ParseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E6EB72BD0565B00E7E230 /* ParseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F14E6EB92BD0565C00E7E230 /* ParseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E6EB72BD0565B00E7E230 /* ParseCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F50C66331B33A708001941A6 /* PFPushUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F50C66311B33A708001941A6 /* PFPushUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F50C66341B33A708001941A6 /* PFPushUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C66321B33A708001941A6 /* PFPushUtilities.m */; };
 		F50C667C1B34B231001941A6 /* PFPushUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C66321B33A708001941A6 /* PFPushUtilities.m */; };
@@ -5834,7 +5834,6 @@
 				814881601B795CD4008763BF /* PFMultiProcessFileLock.h in Headers */,
 				F5C42CDA1B38761B00C720D8 /* PFObjectSubclassInfo.h in Headers */,
 				8196D55B1B0AB64B000465A1 /* PFAnalyticsController.h in Headers */,
-				F14E6EB82BD0565C00E7E230 /* ParseCore.h in Headers */,
 				813E769A1B7A9BD000FA3294 /* PFErrorUtilities.h in Headers */,
 				8166FCE11B503914003841A2 /* PFAnonymousUtils_Private.h in Headers */,
 				818ADC821BE1A8BA00C8006C /* PFUserDefaultsPersistenceGroup.h in Headers */,
@@ -5937,6 +5936,7 @@
 				818AAA7B19D36B1C00FC1B3C /* PFPurchase.h in Headers */,
 				818AAA8119D36B1C00FC1B3C /* PFUser.h in Headers */,
 				709EC3361F1491EA00C55549 /* PFPolygonPrivate.h in Headers */,
+				F14E6EB82BD0565C00E7E230 /* ParseCore.h in Headers */,
 				96FAF7A01D8443E300EAB299 /* PFDecoder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
