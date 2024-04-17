@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -2639,6 +2639,8 @@
 		B14117111E5D081500F70D7A /* PFFileUploadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = B141170A1E5D081500F70D7A /* PFFileUploadResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC150D7325A89F9C0092B00E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A13518820281768000F5FD5 /* Bolts.framework */; };
 		BCAFF87325A88B7800B95DFC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCAFF87225A88B7800B95DFC /* WebKit.framework */; platformFilter = ios; };
+		F14E6EB82BD0565C00E7E230 /* ParseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E6EB72BD0565B00E7E230 /* ParseCore.h */; };
+		F14E6EB92BD0565C00E7E230 /* ParseCore.h in Headers */ = {isa = PBXBuildFile; fileRef = F14E6EB72BD0565B00E7E230 /* ParseCore.h */; };
 		F50C66331B33A708001941A6 /* PFPushUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F50C66311B33A708001941A6 /* PFPushUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F50C66341B33A708001941A6 /* PFPushUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C66321B33A708001941A6 /* PFPushUtilities.m */; };
 		F50C667C1B34B231001941A6 /* PFPushUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F50C66321B33A708001941A6 /* PFPushUtilities.m */; };
@@ -3348,7 +3350,7 @@
 		816A64871C29E5A00029B197 /* PFUser+Synchronous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFUser+Synchronous.h"; sourceTree = "<group>"; };
 		816AC9B81A3F48250031D94C /* PFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFApplication.h; sourceTree = "<group>"; };
 		816AC9B91A3F48250031D94C /* PFApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFApplication.m; sourceTree = "<group>"; };
-		816F449B1A8E8933009CDB32 /* ParseUnitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ParseUnitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F449B1A8E8933009CDB32 /* ParseUnitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ParseUnitTests-iOS.xctest"; path = "ParseCoreUnitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		818ADC711BE1A8BA00C8006C /* PFFilePersistenceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFilePersistenceGroup.h; sourceTree = "<group>"; };
 		818ADC721BE1A8BA00C8006C /* PFFilePersistenceGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFilePersistenceGroup.m; sourceTree = "<group>"; };
 		818ADC731BE1A8BA00C8006C /* PFPersistenceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPersistenceGroup.h; sourceTree = "<group>"; };
@@ -3405,7 +3407,7 @@
 		81BF4AB51B0BF3E500A3D75B /* PFConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFConfigController.m; sourceTree = "<group>"; };
 		81BF4ABA1B0BF64B00A3D75B /* PFCurrentConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFCurrentConfigController.h; sourceTree = "<group>"; };
 		81BF4ABB1B0BF64B00A3D75B /* PFCurrentConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFCurrentConfigController.m; sourceTree = "<group>"; };
-		81C09F861AF97A490043B49C /* ParseUnitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ParseUnitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C09F861AF97A490043B49C /* ParseUnitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ParseUnitTests-macOS.xctest"; path = "ParseCoreUnitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C1EE471AE1EF960031C438 /* PFWeakValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFWeakValue.h; sourceTree = "<group>"; };
 		81C1EE481AE1EF960031C438 /* PFWeakValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFWeakValue.m; sourceTree = "<group>"; };
 		81C3821C19CCA89E0066284A /* ParseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3548,6 +3550,7 @@
 		BCC5EAB422D5F98F00CF8900 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage/Build/watchOS/Bolts.framework; sourceTree = "<group>"; };
 		E9BBE98E16D18E5800CD7B52 /* PFObject+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PFObject+Subclass.h"; path = "Parse/PFObject+Subclass.h"; sourceTree = SOURCE_ROOT; };
 		E9E81E8316EEF93E001D034F /* PFSubclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSubclassing.h; sourceTree = "<group>"; };
+		F14E6EB72BD0565B00E7E230 /* ParseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseCore.h; sourceTree = "<group>"; };
 		F50C66311B33A708001941A6 /* PFPushUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPushUtilities.h; sourceTree = "<group>"; };
 		F50C66321B33A708001941A6 /* PFPushUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFPushUtilities.m; sourceTree = "<group>"; };
 		F50E486C1B83ED270055094D /* PFFileStagingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFileStagingController.h; sourceTree = "<group>"; };
@@ -3695,6 +3698,7 @@
 		0925ABB613D791770095FEFA /* Parse */ = {
 			isa = PBXGroup;
 			children = (
+				F14E6EB72BD0565B00E7E230 /* ParseCore.h */,
 				09809FAE1434F98C00EC3E74 /* Internal */,
 				09809FB81434F98C00EC3E74 /* Resources */,
 				09EEA12D1434FB1F00E3A3FA /* Parse.h */,
@@ -5830,6 +5834,7 @@
 				814881601B795CD4008763BF /* PFMultiProcessFileLock.h in Headers */,
 				F5C42CDA1B38761B00C720D8 /* PFObjectSubclassInfo.h in Headers */,
 				8196D55B1B0AB64B000465A1 /* PFAnalyticsController.h in Headers */,
+				F14E6EB82BD0565C00E7E230 /* ParseCore.h in Headers */,
 				813E769A1B7A9BD000FA3294 /* PFErrorUtilities.h in Headers */,
 				8166FCE11B503914003841A2 /* PFAnonymousUtils_Private.h in Headers */,
 				818ADC821BE1A8BA00C8006C /* PFUserDefaultsPersistenceGroup.h in Headers */,
@@ -6057,6 +6062,7 @@
 				81C584001C3B0A98000063C6 /* PFAnalyticsController.h in Headers */,
 				81C584011C3B0A98000063C6 /* PFErrorUtilities.h in Headers */,
 				81C584031C3B0A98000063C6 /* PFAnonymousUtils_Private.h in Headers */,
+				F14E6EB92BD0565C00E7E230 /* ParseCore.h in Headers */,
 				81C584041C3B0A98000063C6 /* PFUserDefaultsPersistenceGroup.h in Headers */,
 				81C584051C3B0A98000063C6 /* PFPin.h in Headers */,
 				81C584061C3B0A98000063C6 /* PFRESTObjectBatchCommand.h in Headers */,
