@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFQuery.h>
+#import <ParseCore/PFQuery.h>
 
 #import "PFQueryState.h"
 

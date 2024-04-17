@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFObject.h>
+#import <ParseCore/PFObject.h>
 
 @class PFQuery<PFGenericObject : PFObject *>;
 

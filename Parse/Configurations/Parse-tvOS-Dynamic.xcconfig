@@ -10,7 +10,7 @@
 #include "Shared/Platform/tvOS.xcconfig"
 #include "Shared/Product/DynamicFramework.xcconfig"
 
-PRODUCT_NAME = Parse
+PRODUCT_NAME = ParseCore
 PRODUCT_BUNDLE_IDENTIFIER = com.parse.tvos
 
 INFOPLIST_FILE = $(PROJECT_DIR)/Parse/Resources/Parse-tvOS.Info.plist

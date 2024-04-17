@@ -9,72 +9,72 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/ParseClientConfiguration.h>
-#import <Parse/PFACL.h>
-#import <Parse/PFAnalytics.h>
-#import <Parse/PFAnonymousUtils.h>
-#import <Parse/PFAnonymousUtils+Deprecated.h>
-#import <Parse/PFCloud.h>
-#import <Parse/PFCloud+Deprecated.h>
-#import <Parse/PFCloud+Synchronous.h>
-#import <Parse/PFConfig.h>
-#import <Parse/PFConfig+Synchronous.h>
-#import <Parse/PFConstants.h>
-#import <Parse/PFDecoder.h>
-#import <Parse/PFEncoder.h>
-#import <Parse/PFFileObject.h>
-#import <Parse/PFFileObject+Deprecated.h>
-#import <Parse/PFFileObject+Synchronous.h>
-#import <Parse/PFGeoPoint.h>
-#import <Parse/PFPolygon.h>
-#import <Parse/PFObject.h>
-#import <Parse/PFObject+Subclass.h>
-#import <Parse/PFObject+Synchronous.h>
-#import <Parse/PFObject+Deprecated.h>
-#import <Parse/PFQuery.h>
-#import <Parse/PFQuery+Synchronous.h>
-#import <Parse/PFQuery+Deprecated.h>
-#import <Parse/PFRelation.h>
-#import <Parse/PFRole.h>
-#import <Parse/PFSession.h>
-#import <Parse/PFSubclassing.h>
-#import <Parse/PFUser.h>
-#import <Parse/PFUser+Synchronous.h>
-#import <Parse/PFUser+Deprecated.h>
-#import <Parse/PFUserAuthenticationDelegate.h>
-#import <Parse/PFFileUploadResult.h>
-#import <Parse/PFFileUploadController.h>
+#import <ParseCore/ParseClientConfiguration.h>
+#import <ParseCore/PFACL.h>
+#import <ParseCore/PFAnalytics.h>
+#import <ParseCore/PFAnonymousUtils.h>
+#import <ParseCore/PFAnonymousUtils+Deprecated.h>
+#import <ParseCore/PFCloud.h>
+#import <ParseCore/PFCloud+Deprecated.h>
+#import <ParseCore/PFCloud+Synchronous.h>
+#import <ParseCore/PFConfig.h>
+#import <ParseCore/PFConfig+Synchronous.h>
+#import <ParseCore/PFConstants.h>
+#import <ParseCore/PFDecoder.h>
+#import <ParseCore/PFEncoder.h>
+#import <ParseCore/PFFileObject.h>
+#import <ParseCore/PFFileObject+Deprecated.h>
+#import <ParseCore/PFFileObject+Synchronous.h>
+#import <ParseCore/PFGeoPoint.h>
+#import <ParseCore/PFPolygon.h>
+#import <ParseCore/PFObject.h>
+#import <ParseCore/PFObject+Subclass.h>
+#import <ParseCore/PFObject+Synchronous.h>
+#import <ParseCore/PFObject+Deprecated.h>
+#import <ParseCore/PFQuery.h>
+#import <ParseCore/PFQuery+Synchronous.h>
+#import <ParseCore/PFQuery+Deprecated.h>
+#import <ParseCore/PFRelation.h>
+#import <ParseCore/PFRole.h>
+#import <ParseCore/PFSession.h>
+#import <ParseCore/PFSubclassing.h>
+#import <ParseCore/PFUser.h>
+#import <ParseCore/PFUser+Synchronous.h>
+#import <ParseCore/PFUser+Deprecated.h>
+#import <ParseCore/PFUserAuthenticationDelegate.h>
+#import <ParseCore/PFFileUploadResult.h>
+#import <ParseCore/PFFileUploadController.h>
 
 #if TARGET_OS_IOS
 
-#import <Parse/PFInstallation.h>
-#import <Parse/PFNetworkActivityIndicatorManager.h>
-#import <Parse/PFPush.h>
-#import <Parse/PFPush+Synchronous.h>
-#import <Parse/PFPush+Deprecated.h>
-#import <Parse/PFProduct.h>
-#import <Parse/PFPurchase.h>
+#import <ParseCore/PFInstallation.h>
+#import <ParseCore/PFNetworkActivityIndicatorManager.h>
+#import <ParseCore/PFPush.h>
+#import <ParseCore/PFPush+Synchronous.h>
+#import <ParseCore/PFPush+Deprecated.h>
+#import <ParseCore/PFProduct.h>
+#import <ParseCore/PFPurchase.h>
 
 #elif PF_TARGET_OS_OSX
 
-#import <Parse/PFInstallation.h>
-#import <Parse/PFPush.h>
-#import <Parse/PFPush+Synchronous.h>
-#import <Parse/PFPush+Deprecated.h>
+#import <ParseCore/PFInstallation.h>
+#import <ParseCore/PFPush.h>
+#import <ParseCore/PFPush+Synchronous.h>
+#import <ParseCore/PFPush+Deprecated.h>
 
 #elif TARGET_OS_TV
 
-#import <Parse/PFInstallation.h>
-#import <Parse/PFPush.h>
-#import <Parse/PFProduct.h>
-#import <Parse/PFPurchase.h>
+#import <ParseCore/PFInstallation.h>
+#import <ParseCore/PFPush.h>
+#import <ParseCore/PFProduct.h>
+#import <ParseCore/PFPurchase.h>
 
 #endif
 
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- The `Parse` class contains static functions that handle global configuration for the Parse framework.
+ The `Parse` class contains static functions that handle global configuration for the ParseCore.framework.
  */
 @interface Parse : NSObject
 
@@ -117,14 +117,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setServer:(nonnull NSString *)server;
 
 /**
- The current application id that was used to configure Parse framework.
+ The current application id that was used to configure ParseCore.framework.
  */
 @property (nonatomic, nonnull, readonly, class) NSString *applicationId;
 
 + (NSString *)getApplicationId PARSE_DEPRECATED("Use applicationId property.");
 
 /**
- The current client key that was used to configure Parse framework.
+ The current client key that was used to configure ParseCore.framework.
  */
 @property (nonatomic, nullable, readonly, class) NSString *clientKey;
 

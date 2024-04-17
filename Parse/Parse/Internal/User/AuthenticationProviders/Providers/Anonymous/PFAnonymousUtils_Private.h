@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <Parse/PFAnonymousUtils.h>
+#import <ParseCore/PFAnonymousUtils.h>
 
 @class PFAnonymousAuthenticationProvider;
 @class PFUser;

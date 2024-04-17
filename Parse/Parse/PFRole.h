@@ -9,9 +9,9 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFObject.h>
-#import <Parse/PFSubclassing.h>
-#import <Parse/PFUser.h>
+#import <ParseCore/PFObject.h>
+#import <ParseCore/PFSubclassing.h>
+#import <ParseCore/PFUser.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

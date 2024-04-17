@@ -9,7 +9,7 @@
 
 #import "PFURLSessionDataTaskDelegate.h"
 
-#import <Parse/PFConstants.h>
+#import <ParseCore/PFConstants.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

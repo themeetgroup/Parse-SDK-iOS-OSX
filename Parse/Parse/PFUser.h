@@ -11,9 +11,9 @@
 
 #import <Bolts/BFTask.h>
 
-#import <Parse/PFConstants.h>
-#import <Parse/PFObject.h>
-#import <Parse/PFSubclassing.h>
+#import <ParseCore/PFConstants.h>
+#import <ParseCore/PFObject.h>
+#import <ParseCore/PFSubclassing.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

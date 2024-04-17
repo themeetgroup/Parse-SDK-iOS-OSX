@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFConfig.h>
+#import <ParseCore/PFConfig.h>
 
 extern NSString *const PFConfigParametersRESTKey;
 

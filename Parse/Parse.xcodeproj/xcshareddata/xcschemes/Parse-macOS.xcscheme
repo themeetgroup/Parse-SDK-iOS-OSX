@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "97010FAB1630B18F00AB761E"
-               BuildableName = "Parse.framework"
+               BuildableName = "ParseCore.framework"
                BlueprintName = "Parse-macOS"
                ReferencedContainer = "container:Parse.xcodeproj">
             </BuildableReference>
@@ -29,7 +29,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81C09F501AF97A490043B49C"
-               BuildableName = "ParseUnitTests-macOS.xctest"
+               BuildableName = "ParseCoreUnitTests-macOS.xctest"
                BlueprintName = "ParseUnitTests-macOS"
                ReferencedContainer = "container:Parse.xcodeproj">
             </BuildableReference>
@@ -47,7 +47,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97010FAB1630B18F00AB761E"
-            BuildableName = "Parse.framework"
+            BuildableName = "ParseCore.framework"
             BlueprintName = "Parse-macOS"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>
@@ -59,7 +59,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81C09F501AF97A490043B49C"
-               BuildableName = "ParseUnitTests-macOS.xctest"
+               BuildableName = "ParseCoreUnitTests-macOS.xctest"
                BlueprintName = "ParseUnitTests-macOS"
                ReferencedContainer = "container:Parse.xcodeproj">
             </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97010FAB1630B18F00AB761E"
-            BuildableName = "Parse.framework"
+            BuildableName = "ParseCore.framework"
             BlueprintName = "Parse-macOS"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "97010FAB1630B18F00AB761E"
-            BuildableName = "Parse.framework"
+            BuildableName = "ParseCore.framework"
             BlueprintName = "Parse-macOS"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>

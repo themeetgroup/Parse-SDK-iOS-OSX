@@ -9,7 +9,7 @@
 
 #import "PFRESTCommand.h"
 
-#import <Parse/PFConstants.h>
+#import <ParseCore/PFConstants.h>
 
 extern NSUInteger const PFRESTObjectBatchCommandSubcommandsLimit;
 

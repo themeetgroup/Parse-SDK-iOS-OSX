@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFPush.h>
+#import <ParseCore/PFPush.h>
 
 #import "PFMacros.h"
 

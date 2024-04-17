@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  If a subclass of `PFObject` conforms to `PFSubclassing` and calls `PFObject.+registerSubclass`,
- Parse framework will be able to use that class as the native class for a Parse cloud object.
+ ParseCore.framework will be able to use that class as the native class for a Parse cloud object.
 
  Classes conforming to this protocol should subclass `PFObject` and
  include `PFObject+Subclass.h` in their implementation file.

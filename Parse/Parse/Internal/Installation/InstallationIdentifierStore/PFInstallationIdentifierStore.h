@@ -11,7 +11,7 @@
 
 #import "PFDataProvider.h"
 
-#import <Parse/PFConstants.h>
+#import <ParseCore/PFConstants.h>
 
 @class BFTask<__covariant BFGenericType>;
 

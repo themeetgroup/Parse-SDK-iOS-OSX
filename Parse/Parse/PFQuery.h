@@ -11,10 +11,10 @@
 
 #import <Bolts/BFTask.h>
 
-#import <Parse/PFConstants.h>
-#import <Parse/PFGeoPoint.h>
-#import <Parse/PFObject.h>
-#import <Parse/PFUser.h>
+#import <ParseCore/PFConstants.h>
+#import <ParseCore/PFGeoPoint.h>
+#import <ParseCore/PFObject.h>
+#import <ParseCore/PFUser.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -705,63 +705,65 @@
 		4A51E4082027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E4072027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E40A2027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E4092027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E40C2027CC0F0066DE1A /* ParseUnitTests-iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "ParseUnitTests-iOS.xctest";
+			name = "ParseUnitTests-iOS.xctest";
+			path = "ParseCoreUnitTests-iOS.xctest";
 			remoteRef = 4A51E40B2027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E40E2027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E40D2027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E4102027CC0F0066DE1A /* ParseUnitTests-macOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "ParseUnitTests-macOS.xctest";
+			name = "ParseUnitTests-macOS.xctest";
+			path = "ParseCoreUnitTests-macOS.xctest";
 			remoteRef = 4A51E40F2027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E4122027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E4112027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E4142027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E4132027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E4162027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E4152027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		4A51E4182027CC0F0066DE1A /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = ParseCore.framework;
 			remoteRef = 4A51E4172027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

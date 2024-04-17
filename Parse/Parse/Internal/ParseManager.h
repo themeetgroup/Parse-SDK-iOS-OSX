@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/ParseClientConfiguration.h>
-#import <Parse/PFConstants.h>
+#import <ParseCore/ParseClientConfiguration.h>
+#import <ParseCore/PFConstants.h>
 
 #import "PFDataProvider.h"
 #import "PFOfflineStore.h"

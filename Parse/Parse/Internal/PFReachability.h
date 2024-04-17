@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFConstants.h>
+#import <ParseCore/PFConstants.h>
 
 PF_WATCH_UNAVAILABLE_WARNING
 
