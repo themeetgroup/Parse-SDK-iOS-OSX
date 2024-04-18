@@ -10,7 +10,7 @@
 #include "Shared/Platform/iOS.xcconfig"
 #include "Shared/Product/LogicTests.xcconfig"
 
-PRODUCT_NAME = ParseCoreUnitTests-iOS
+PRODUCT_NAME = TMGParseCoreUnitTests-iOS
 PRODUCT_MODULE_NAME = ParseUnitTests
 PRODUCT_BUNDLE_IDENTIFIER = com.parse.unit.ios
 

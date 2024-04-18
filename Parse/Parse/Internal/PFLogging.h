@@ -10,7 +10,7 @@
 #ifndef Parse_PFLogging_h
 #define Parse_PFLogging_h
 
-#import <ParseCore/PFConstants.h>
+#import <TMGParseCore/PFConstants.h>
 
 #import "PFSystemLogger.h"
 

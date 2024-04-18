@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ParseCore/PFACL.h>
+#import <TMGParseCore/PFACL.h>
 
 @class PFUser;
 

@@ -7,8 +7,8 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <ParseCore/PFAnonymousUtils.h>
-#import <ParseCore/PFConstants.h>
+#import <TMGParseCore/PFAnonymousUtils.h>
+#import <TMGParseCore/PFConstants.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

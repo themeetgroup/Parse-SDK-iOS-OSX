@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import <ParseCore/PFAnalytics.h>
+#import <TMGParseCore/PFAnalytics.h>
 
 /**
  Predefined events - AppOpened, CrashReport

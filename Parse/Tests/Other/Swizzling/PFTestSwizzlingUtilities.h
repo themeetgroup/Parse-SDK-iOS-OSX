@@ -9,7 +9,7 @@
 
 @import Foundation;
 
-#import <ParseCore/PFConstants.h>
+#import <TMGParseCore/PFConstants.h>
 
 #import "PFTestSwizzledMethod.h"
 

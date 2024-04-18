@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ParseCore/PFObject.h>
-#import <ParseCore/PFSubclassing.h>
+#import <TMGParseCore/PFObject.h>
+#import <TMGParseCore/PFSubclassing.h>
 
 PF_WATCH_UNAVAILABLE_WARNING
 

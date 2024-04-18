@@ -10,7 +10,7 @@
 #include "Shared/Platform/iOS.xcconfig"
 #include "Shared/Product/StaticFramework.xcconfig"
 
-PRODUCT_NAME = ParseCore
+PRODUCT_NAME = TMGParseCore
 PRODUCT_BUNDLE_IDENTIFIER = com.parse.ios
 APPLICATION_EXTENSION_API_ONLY = YES
 

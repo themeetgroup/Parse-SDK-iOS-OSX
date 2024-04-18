@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ParseCore/PFRelation.h>
+#import <TMGParseCore/PFRelation.h>
 
 @class PFDecoder;
 

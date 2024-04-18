@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ParseCore/PFGeoPoint.h>
+#import <TMGParseCore/PFGeoPoint.h>
 
 extern const double EARTH_RADIUS_MILES;
 extern const double EARTH_RADIUS_KILOMETERS;

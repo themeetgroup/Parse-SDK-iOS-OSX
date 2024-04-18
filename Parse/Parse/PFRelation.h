@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ParseCore/PFObject.h>
-#import <ParseCore/PFQuery.h>
+#import <TMGParseCore/PFObject.h>
+#import <TMGParseCore/PFQuery.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

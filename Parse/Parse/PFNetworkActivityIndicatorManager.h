@@ -10,7 +10,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import <ParseCore/PFConstants.h>
+#import <TMGParseCore/PFConstants.h>
 
 PF_OSX_UNAVAILABLE_WARNING
 PF_TV_UNAVAILABLE_WARNING

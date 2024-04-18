@@ -10,7 +10,7 @@
 #include "Shared/Platform/iOS.xcconfig"
 #include "Shared/Product/DynamicFramework.xcconfig"
 
-PRODUCT_NAME = ParseCore
+PRODUCT_NAME = TMGParseCore
 PRODUCT_BUNDLE_IDENTIFIER = com.parse.ios
 
 IPHONEOS_DEPLOYMENT_TARGET = 9.0

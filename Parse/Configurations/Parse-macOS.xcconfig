@@ -10,7 +10,7 @@
 #include "Shared/Platform/macOS.xcconfig"
 #include "Shared/Product/DynamicFramework.xcconfig"
 
-PRODUCT_NAME = ParseCore
+PRODUCT_NAME = TMGParseCore
 PRODUCT_BUNDLE_IDENTIFIER = com.parse.macos
 
 INFOPLIST_FILE = $(PROJECT_DIR)/Parse/Resources/Parse-OSX.Info.plist

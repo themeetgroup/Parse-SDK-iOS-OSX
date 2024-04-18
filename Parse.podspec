@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ParseCore'
+  s.name             = 'TMGParseCore'
   s.version          = '1.19.4'
   s.license          =  { :type => 'BSD', :file => 'LICENSE' }
   s.homepage         = 'http://parseplatform.org/'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '10.0'
   s.watchos.deployment_target = '2.0'
 
-  s.module_name = 'ParseCore'
+  s.module_name = 'TMGParseCore'
 
   s.default_subspec = 'Core'
 

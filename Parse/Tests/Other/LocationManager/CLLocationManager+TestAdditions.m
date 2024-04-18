@@ -9,7 +9,7 @@
 
 #import "CLLocationManager+TestAdditions.h"
 
-#import <ParseCore/PFConstants.h>
+#import <TMGParseCore/PFConstants.h>
 
 #import "PFTestSwizzlingUtilities.h"
 

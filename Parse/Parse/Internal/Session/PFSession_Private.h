@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <ParseCore/PFSession.h>
+#import <TMGParseCore/PFSession.h>
 
 @class PFSessionController;
 
