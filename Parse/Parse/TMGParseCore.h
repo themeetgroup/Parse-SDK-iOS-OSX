@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <TMGParseCore/ParseManager.h>
 #import <TMGParseCore/Parse.h>
 #import <TMGParseCore/PFCoreManager.h>
 #import <TMGParseCore/PFEventuallyPin.h>
