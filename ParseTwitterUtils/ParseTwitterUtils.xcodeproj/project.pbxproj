@@ -312,15 +312,15 @@
 		4A51E3FB2027CC0F0066DE1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A51E4082027CC0F0066DE1A /* Parse.framework */,
-				4A51E40A2027CC0F0066DE1A /* Parse.framework */,
+				4A51E4082027CC0F0066DE1A /* ParseCore.framework */,
+				4A51E40A2027CC0F0066DE1A /* ParseCore.framework */,
 				4A51E40C2027CC0F0066DE1A /* ParseUnitTests-iOS.xctest */,
-				4A51E40E2027CC0F0066DE1A /* Parse.framework */,
+				4A51E40E2027CC0F0066DE1A /* ParseCore.framework */,
 				4A51E4102027CC0F0066DE1A /* ParseUnitTests-macOS.xctest */,
-				4A51E4122027CC0F0066DE1A /* Parse.framework */,
-				4A51E4142027CC0F0066DE1A /* Parse.framework */,
-				4A51E4162027CC0F0066DE1A /* Parse.framework */,
-				4A51E4182027CC0F0066DE1A /* Parse.framework */,
+				4A51E4122027CC0F0066DE1A /* ParseCore.framework */,
+				4A51E4142027CC0F0066DE1A /* ParseCore.framework */,
+				4A51E4162027CC0F0066DE1A /* ParseCore.framework */,
+				4A51E4182027CC0F0066DE1A /* ParseCore.framework */,
 				4A51E41A2027CC0F0066DE1A /* ParseUnitTests-iOS-host.app */,
 			);
 			name = Products;
@@ -702,17 +702,17 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4A51E4082027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E4082027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E4072027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A51E40A2027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E40A2027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E4092027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -720,14 +720,14 @@
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			name = "ParseUnitTests-iOS.xctest";
-			path = "ParseCoreUnitTests-iOS.xctest";
+			path = "TMGParseCoreUnitTests-iOS.xctest";
 			remoteRef = 4A51E40B2027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A51E40E2027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E40E2027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E40D2027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -735,35 +735,35 @@
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			name = "ParseUnitTests-macOS.xctest";
-			path = "ParseCoreUnitTests-macOS.xctest";
+			path = "TMGParseCoreUnitTests-macOS.xctest";
 			remoteRef = 4A51E40F2027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A51E4122027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E4122027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E4112027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A51E4142027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E4142027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E4132027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A51E4162027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E4162027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E4152027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A51E4182027CC0F0066DE1A /* Parse.framework */ = {
+		4A51E4182027CC0F0066DE1A /* ParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = ParseCore.framework;
+			path = TMGParseCore.framework;
 			remoteRef = 4A51E4172027CC0F0066DE1A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

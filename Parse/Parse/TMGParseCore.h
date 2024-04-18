@@ -1,8 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <TMGParseCore/Parse.h>
-#import <TMGParseCore/PFCoreManager.h>
-#import <TMGParseCore/PFEventuallyPin.h>
-#import <TMGParseCore/PFPin.h>
+
 #import <TMGParseCore/ParseClientConfiguration.h>
 #import <TMGParseCore/PFACL.h>
 #import <TMGParseCore/PFAnalytics.h>
@@ -38,6 +35,7 @@
 #import <TMGParseCore/PFUserAuthenticationDelegate.h>
 #import <TMGParseCore/PFFileUploadResult.h>
 #import <TMGParseCore/PFFileUploadController.h>
+
 #import <TMGParseCore/PFInstallation.h>
 #import <TMGParseCore/PFNetworkActivityIndicatorManager.h>
 #import <TMGParseCore/PFPush.h>
@@ -45,5 +43,6 @@
 #import <TMGParseCore/PFPush+Deprecated.h>
 #import <TMGParseCore/PFProduct.h>
 #import <TMGParseCore/PFPurchase.h>
+
 FOUNDATION_EXPORT double TMGParseCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char TMGParseCoreVersionString[];
