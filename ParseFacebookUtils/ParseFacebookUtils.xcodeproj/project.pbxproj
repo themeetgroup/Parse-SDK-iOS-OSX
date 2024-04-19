@@ -491,15 +491,15 @@
 		4A1350422027EA26000F5FD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A13504F2027EA26000F5FD5 /* ParseCore.framework */,
-				4A1350512027EA26000F5FD5 /* ParseCore.framework */,
+				4A13504F2027EA26000F5FD5 /* TMGParseCore.framework */,
+				4A1350512027EA26000F5FD5 /* TMGParseCore.framework */,
 				4A1350532027EA26000F5FD5 /* ParseUnitTests-iOS.xctest */,
-				4A1350552027EA26000F5FD5 /* ParseCore.framework */,
+				4A1350552027EA26000F5FD5 /* TMGParseCore.framework */,
 				4A1350572027EA26000F5FD5 /* ParseUnitTests-macOS.xctest */,
-				4A1350592027EA26000F5FD5 /* ParseCore.framework */,
-				4A13505B2027EA26000F5FD5 /* ParseCore.framework */,
-				4A13505D2027EA26000F5FD5 /* ParseCore.framework */,
-				4A13505F2027EA26000F5FD5 /* ParseCore.framework */,
+				4A1350592027EA26000F5FD5 /* TMGParseCore.framework */,
+				4A13505B2027EA26000F5FD5 /* TMGParseCore.framework */,
+				4A13505D2027EA26000F5FD5 /* TMGParseCore.framework */,
+				4A13505F2027EA26000F5FD5 /* TMGParseCore.framework */,
 				4A1350612027EA26000F5FD5 /* ParseUnitTests-iOS-host.app */,
 			);
 			name = Products;
@@ -970,14 +970,14 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4A13504F2027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A13504F2027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
 			remoteRef = 4A13504E2027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A1350512027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A1350512027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
@@ -992,7 +992,7 @@
 			remoteRef = 4A1350522027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A1350552027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A1350552027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
@@ -1007,28 +1007,28 @@
 			remoteRef = 4A1350562027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A1350592027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A1350592027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
 			remoteRef = 4A1350582027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A13505B2027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A13505B2027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
 			remoteRef = 4A13505A2027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A13505D2027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A13505D2027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
 			remoteRef = 4A13505C2027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4A13505F2027EA26000F5FD5 /* ParseCore.framework */ = {
+		4A13505F2027EA26000F5FD5 /* TMGParseCore.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TMGParseCore.framework;
