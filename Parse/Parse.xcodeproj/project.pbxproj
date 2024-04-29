@@ -3350,7 +3350,7 @@
 		816A64871C29E5A00029B197 /* PFUser+Synchronous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PFUser+Synchronous.h"; sourceTree = "<group>"; };
 		816AC9B81A3F48250031D94C /* PFApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFApplication.h; sourceTree = "<group>"; };
 		816AC9B91A3F48250031D94C /* PFApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFApplication.m; sourceTree = "<group>"; };
-		816F449B1A8E8933009CDB32 /* ParseUnitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ParseUnitTests-iOS.xctest"; path = "TMGParseCoreUnitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816F449B1A8E8933009CDB32 /* TMGParseCoreUnitTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMGParseCoreUnitTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		818ADC711BE1A8BA00C8006C /* PFFilePersistenceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFilePersistenceGroup.h; sourceTree = "<group>"; };
 		818ADC721BE1A8BA00C8006C /* PFFilePersistenceGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFilePersistenceGroup.m; sourceTree = "<group>"; };
 		818ADC731BE1A8BA00C8006C /* PFPersistenceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFPersistenceGroup.h; sourceTree = "<group>"; };
@@ -3407,7 +3407,7 @@
 		81BF4AB51B0BF3E500A3D75B /* PFConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFConfigController.m; sourceTree = "<group>"; };
 		81BF4ABA1B0BF64B00A3D75B /* PFCurrentConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFCurrentConfigController.h; sourceTree = "<group>"; };
 		81BF4ABB1B0BF64B00A3D75B /* PFCurrentConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFCurrentConfigController.m; sourceTree = "<group>"; };
-		81C09F861AF97A490043B49C /* ParseUnitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ParseUnitTests-macOS.xctest"; path = "TMGParseCoreUnitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C09F861AF97A490043B49C /* TMGParseCoreUnitTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMGParseCoreUnitTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C1EE471AE1EF960031C438 /* PFWeakValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFWeakValue.h; sourceTree = "<group>"; };
 		81C1EE481AE1EF960031C438 /* PFWeakValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFWeakValue.m; sourceTree = "<group>"; };
 		81C3821C19CCA89E0066284A /* TMGParseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMGParseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3898,8 +3898,8 @@
 			children = (
 				97010FAC1630B18F00AB761E /* TMGParseCore.framework */,
 				81C3821C19CCA89E0066284A /* TMGParseCore.framework */,
-				816F449B1A8E8933009CDB32 /* ParseUnitTests-iOS.xctest */,
-				81C09F861AF97A490043B49C /* ParseUnitTests-macOS.xctest */,
+				816F449B1A8E8933009CDB32 /* TMGParseCoreUnitTests-iOS.xctest */,
+				81C09F861AF97A490043B49C /* TMGParseCoreUnitTests-macOS.xctest */,
 				810156691BB3832700D7C7BD /* TMGParseCore.framework */,
 				815F24151BD04D150054659F /* TMGParseCore.framework */,
 				81C5845D1C3B0A98000063C6 /* TMGParseCore.framework */,
@@ -6887,7 +6887,7 @@
 			);
 			name = "ParseUnitTests-iOS";
 			productName = ParseTests;
-			productReference = 816F449B1A8E8933009CDB32 /* ParseUnitTests-iOS.xctest */;
+			productReference = 816F449B1A8E8933009CDB32 /* TMGParseCoreUnitTests-iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		81C09F501AF97A490043B49C /* ParseUnitTests-macOS */ = {
@@ -6907,7 +6907,7 @@
 			);
 			name = "ParseUnitTests-macOS";
 			productName = ParseTests;
-			productReference = 81C09F861AF97A490043B49C /* ParseUnitTests-macOS.xctest */;
+			productReference = 81C09F861AF97A490043B49C /* TMGParseCoreUnitTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		81C3821B19CCA89E0066284A /* Parse-iOS */ = {
@@ -8825,7 +8825,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 			};
 			name = Debug;
@@ -8842,7 +8842,7 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -9048,7 +9048,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9067,7 +9067,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9084,7 +9084,7 @@
 			baseConfigurationReference = 81C582DE1C3B0A40000063C6 /* Parse-iOS-Dynamic.xcconfig */;
 			buildSettings = {
 				CLANG_MODULES_AUTOLINK = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -9095,7 +9095,7 @@
 			baseConfigurationReference = 81C582DE1C3B0A40000063C6 /* Parse-iOS-Dynamic.xcconfig */;
 			buildSettings = {
 				CLANG_MODULES_AUTOLINK = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
